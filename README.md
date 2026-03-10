@@ -33,14 +33,6 @@ The model significantly outperforms previous models across most benchmarks, achi
 
 Besides, although the model is trained using only 16 frames, we find that evaluating on more frames (e.g., 64) generally leads to better performance, particularly on benchmarks with longer videos. These results indicate the importance of training models to reason over more frames.
 
-## RL Training Curves
-
-The accuracy reward exhibits a generally upward trend, indicating that the model continuously improves its ability to produce correct answers under RL.
-
-Interestingly, the response length curve first drops at the beginning of RL training, then gradually increases. We guess this is because the model initially discards its previous, potentially sub-optimal reasoning style. Then gradually converges to a better and stable reasoning policy.
-
-<img src="./assets/fig_reward.pdf" style="zoom:80%;" />
-
 ## Set up
 
 ```bash
