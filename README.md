@@ -16,19 +16,11 @@ This repository provides the training and evaluation code for robust video reaso
 
 To overcome the scarcity of high-quality video reasoning training data, we strategically introduce image-based reasoning data as part of training data. We collect data from a variety of public datasets and carefully sample and balance the proportion of each subset.
 
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        body { margin: 0; padding: 0; }  /* 移除默认边距 */
-    </style>
-</head>
-<body>
-    <div style="display: flex; justify-content: center; width: 100%;">
-        <img src="./assets/dataset_demo.jpg" alt="dataset demo" style="width: 500px; height: auto;">
-    </div>
-</body>
-</html>
+<div style="text-align: center;">
+    <img src="./assets/dataset_demo.jpg" 
+         alt="dataset demo" 
+         style="display: inline-block; width: 500px; height: auto; margin: 0 auto;">
+</div>
 
 To facilitate an effective SFT cold start, we leverage Qwen2.5-VL-72B to generate COT rationales for the training samples. After applying basic rule-based filtering to remove low-quality or inconsistent outputs, we obtain a high-quality CoT dataset.
 
