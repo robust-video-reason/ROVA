@@ -16,7 +16,7 @@ This repository provides the training and evaluation code for robust video reaso
 
 To overcome the scarcity of high-quality video reasoning training data, we strategically introduce image-based reasoning data as part of training data. We collect data from a variety of public datasets and carefully sample and balance the proportion of each subset.
 
-<div style="display: flex; justify-content: center;">
+<<div style="display: flex; justify-content: center;">
     <img src="./assets/dataset_demo.jpg" 
          alt="dataset demo" 
          style="width: 500px; height: auto;">
