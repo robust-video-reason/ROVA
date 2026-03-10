@@ -12,15 +12,6 @@ This repository provides the training and evaluation code for robust video reaso
 + Support multiple types for answers output (multiple choice, numerical, OCR, free-form, regression)
 + Provide full pipeline (dataset, COT annotation, SFT training, RL training, evaluation, etc)
 
-## Performance
-The model significantly outperforms previous models across most benchmarks, achieving strong performance on video spatial reasoning and other video understanding tasks.
-
-<div align="center">
-  <img src="./assets/main_results.jpg" alt="Descriptive alt text" width="40%">
-</div>
-
-Besides, although the model is trained using only 16 frames, we find that evaluating on more frames (e.g., 64) generally leads to better performance, particularly on benchmarks with longer videos. These results indicate the importance of training models to reason over more frames.
-
 ## Set up
 
 ```bash
